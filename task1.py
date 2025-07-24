@@ -23,4 +23,9 @@ meals.remove(meals[2])
 meals.append("Fura da Nono")
 print (meals)
 #which item is at the center
-middle index = len(meals) //2
+centerIndex = len(meals) //2
+centerMeal = meals[centerIndex]
+print (centerMeal)
+#arrange the menu in alphabetical order
+meals.sort()
+print(meals)
