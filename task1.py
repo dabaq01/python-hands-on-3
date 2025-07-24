@@ -10,3 +10,17 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 5. Arrange the Meals in alphabetical order
 → Modify the list as required and print the final list and the center meal.
 """
+#meal plan for the Jos Food and Culture Festival
+meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
+#move "Miyan Taushe" to the position before "Kunu"
+meals.insert(4, "Miyan Taushe")
+print (meals)
+#take masa off the list
+meals.remove(meals[1])
+print (meals)
+#move "Fura da Nono" to the end of the list
+meals.remove(meals[2])
+meals.append("Fura da Nono")
+print (meals)
+#which item is at the center
+middle index = len(meals) //2
