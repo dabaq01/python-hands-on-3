@@ -10,3 +10,18 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+#community Friday Film Night for kids
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+#add drama to the list
+genres.append("Drama")
+print (genres)
+#remove duplicate "Fantasy"
+genres.remove (genres[6])
+print (genres)
+#how many genres will be shown?
+totalGenres = len(genres)
+print (totalGenres)
+#display second to last genre
+secondToLastGenre = genres[-2]
+print (secondToLastGenre)
